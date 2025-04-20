@@ -5,7 +5,7 @@ const TodoItem = (props) => {
     <>
         <div className='todo-item'>
             <span>
-                <input type="checkbox" />
+                {props.completed ? <> </> : <input type="checkbox" />}
                 <span className='todo-item-text'>{props.text}</span>
             </span>
             <p>...</p>

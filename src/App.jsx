@@ -10,11 +10,11 @@ function App() {
   return (
     <>
       <div className='todo-container'>
-        <Header />
+        <Header title="Todoie App" />
         <TodoItem text="Eat" />
         <TodoItem text="Code" />
         <TodoItem text="Sleep" />
-        <TodoItem text="Play Cricket" />
+        <TodoItem text="Play Cricket" completed={true} />
         <TodoItem text="No Reels" />
         <TodoItem text="No Music" />
         <TodoItem text="More Code" />
